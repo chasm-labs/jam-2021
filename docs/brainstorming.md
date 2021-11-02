@@ -59,4 +59,16 @@
   - [ ] Each segment has its own health
   - [ ] Resistance based on element chosen by segment
 
+- [ ] **Projectiles/Attacks**
+  - [ ] Ranged
+  - [ ] Melee
+  - [ ] AOE
+
 - [ ] **World Generation**
+  - [ ] Procedural terrain OR just procedural rooms?
+  - [ ] Biome color shifts
+
+- [ ] **Enemies / AI**
+  - [ ] ? Consists of other bugs ?
+  - [ ] ? World acts against player ?
+  - [ ] Start with dumb follow and shoot AI, maybe different types have different AI
