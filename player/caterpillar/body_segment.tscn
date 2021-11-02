@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 50, 50 )
+
+[node name="segment" type="Node2D"]
+position = Vector2( 408.386, 214.583 )
+
+[node name="Sprite" type="ColorRect" parent="."]
+margin_left = -50.0
+margin_top = -50.0
+margin_right = 50.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="Sprite"]
+position = Vector2( 50, 50 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite/KinematicBody2D"]
+shape = SubResource( 1 )
+
+[node name="Rear Connection" type="Node2D" parent="."]
+position = Vector2( -50, 0 )
+
+[node name="Front Connection" type="Node2D" parent="."]
+position = Vector2( -50, 0 )
