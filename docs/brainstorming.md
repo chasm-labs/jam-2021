@@ -72,3 +72,13 @@
   - [ ] ? Consists of other bugs ?
   - [ ] ? World acts against player ?
   - [ ] Start with dumb follow and shoot AI, maybe different types have different AI
+
+- [ ] **Assets**
+  - [ ] Main caterpillar segments + legs
+    - [ ] Textures and primitive shapes can do for the short term
+  - [ ] Enemy designs
+    - [ ] Materials / Sprites
+  - [ ] Backgrounds
+    - [ ] Terrain
+      - [ ] Biomes? Or maybe just color shifted variants
+    - [ ] Junk or flavor sprites to spread around
