@@ -8,10 +8,20 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Reference",
+"class": "caterpillar",
+"language": "GDScript",
+"path": "res://player/caterpillar/caterpillar.gd"
+} ]
+_global_script_class_icons={
+"caterpillar": ""
+}
+
 [application]
 
 config/name="jam-2021"
-run/main_scene="res://scenes/2dRoot.tscn"
+run/main_scene="res://scenes/MainScene.tscn"
 config/icon="res://assets/icon.png"
 
 [physics]
